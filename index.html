@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>CAROMETRO</title>
+	<link rel="stylesheet" href="doc.css">
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	
+	<style>
+		body{
+			background-color: #FFB6C1;
+		}
+		table{
+		  width: 100%;
+		  margin-bottom : .5em;
+		  table-layout: fixed;
+		  text-align: center;
+		  background-color: #F08080;
+		}
+		
+		.our-team{
+			padding: 30px 0 40px;
+			height: 200px;
+			width: 350px;
+			background: white;
+			text-align: center;
+			overflow: hidden;
+			position: relative;
+			display: inline-block;
+			background-color: #FFB6C1;
+		}
+		
+		.our-team .pic{
+			display: inline-block;
+			width: 130px;
+			height: 130px;
+			margin-bottom: 50px;			
+			position: relative;	
+			z-index:1; 	
+		}
+		.our-team .pic:before{
+			content: "";
+			width: 100%;
+			background: #eb1768;
+			position: absolute;
+			bottom: 135%;
+			left:0;
+			right: 0;		
+			transform: scale(3);
+			transition: all 0.3s linear 0s;
+		}
+		.our-team:hover .pic:before{
+			height: 100%;
+		}
+		.our-team .pic:after{
+			content: "";
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+			background: #ee4266;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: -1;
+			
+		}
+		.our-team .pic img{
+			width: 100%;
+			height: auto;
+			border-radius: 50%;
+			transform: scale(1);
+			transition: all 0.9s ease 0s;				
+		}
+		
+		.our-team:hover .pic img{
+			box-shadow: 0 0 0 14px #f7f5ec;
+			transform: scale(0.7);
+		}
+		
+		.our-team .team-content{
+			margin-bottom: 30px;
+		}
+		
+		.our-team .title{
+			font-size: 22px;
+			font-weight: 700;
+			color: #4e5052;
+			letter-spacing: 1px;
+			text-transform: capitalize;
+			margin-bottom: 5px;
+		}
+		
+		.our-team .post{
+			display: block;
+			font-size: 15px;
+			color: #4e5052;
+			text-transform: capitalize;
+		}
+		
+		.our-team .social{
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			background: #eb1768;
+			position: absolute;
+			bottom: -100px;
+			left: 0;
+			transition: all 0.5s ease 0s;
+		}
+		
+		.our-team:hover .social{
+			bottom: 0;
+			
+		}
+		
+		.our-team .social li{
+			display: inline-block;
+		}
+		
+		.our-team .social li a{
+			display: block;
+			padding:10px;
+			font-size: 17px;
+			color: white;
+			transition: all 0.3s ease 0s;
+		}
+		
+		.our-team .social li a:hover{
+			color: #eb1768;
+			background:#f7f5ec;
+			text-decoration: none;
+		}
+	</style>
+	</head>
+    <body><header id="topo"> <img src="carometro/BI2017.png" height="250"><a align="center"><img src="carometro/BI2018.jpg" height="250" ></a><a align="right"><img src="carometro/BI2019.png" height="250" ></a></header><br><br><br><br><br><br><br>
+
+    		<nav id="menu">
+		<ul>
+			<li>
+				<a = href="#sala">SALA</a>
+			</li>
+			<li>
+				<a = href="#BI">ALUNOS</a>
+			</li>
+			<li>
+				<a = href="#contact">REDES</a>
+			</li>
+		</ul>
+	</nav>
+<br><br><br><br><br><br><br>
+	<a id = "sala">
+	<section id = "alunosTop">
+		<div  align="center" >
+			<table bgcolor="#FFB6C1">
+			<tr>
+			  	<th><H1>BI 2017-2019</H1></th>
+			  </tr>			  <tr>
+			    <th><img src="carometro/daniBi.jpg" height="500"/></th>
+			    <th><br><br>"PÁGINA 533, SALMOS 23:<br> O SENHOR é o meu pastor, e nada me faltará."</th>
+			  </tr>
+			</table>
+		</div>
+
+	</section>
+</a><br><br><br><br><br><br><br>
+
+<a id=BI>
+<section id="alunosTop" >
+        <div class="container">
+<!--1-->  
+         <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/amanda.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">1. Amanda Herica</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto EDDO21
+						</ul>
+                    </div>
+<!--2-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/brum.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">2. André Brum Cortez</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto EarHelp
+						</ul>
+                    </div>
+<!--3-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/valle.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">3. André Pereira do Valle</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto Kinjá
+						</ul>
+                    </div>            
+<!--4-->
+              
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/anny.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">4. Anny Karoline Travassos</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto Luce
+						</ul>
+                    </div>
+<!--5-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/bea.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">5. Beatriz Damasceno Fernandes</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto Kinjá
+						</ul>
+                    </div>                  
+<!--6-->
+               	<div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/brenda.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">6. Brenda Moura</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto Luce
+						</ul>
+                    </div>
+<!--7-->
+		<div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/carlos.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">7. Carlos Alberto de Jesus Vasconcelos</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto TeaTalk
+						</ul>
+                    </div>        
+<!--8-->
+		
+                   <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/daniel.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">8. Daniel Hansell de Lima Bezerra</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto Gotinha
+						</ul>
+                    </div>             
+<!--9-->
+          <div class= "our-team">
+                  <div class= "pic">
+                        <img src="carometro/zucolo.jpg">
+                   </div>
+					<div class="team-content">
+						<h3 class="title">9. Eduardo Zucolo</h3>
+						<span class="post"></span>
+					</div>
+						<ul class="social">  
+							Projeto EarHelp
+						</ul>
+                 </div>
+<!--10-->
+                   <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/manu.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">10. Emanuela Pinacé Amaral</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto Gotinha
+						</ul>
+                    </div>
+<!--11-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/euclides.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">11. Euclides Lins</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto Luce
+						</ul>
+                    </div>
+<!--12-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/fernando.jpg">
+                        </div>
+						<div class="team-content">
+							<h4 class="title">12. Fernando Vítor V. Neder</h4>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto Anxiety Off
+						</ul>
+                    </div>
+<!--13-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/gustavo.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">13. Gustavo Gabriel Souza dos Anjos</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto Pequenos Físicos
+						</ul>
+                    </div>
+<!--14-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/iasmyn.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">14. Iasmyn Maia Bruce</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto Kinjá
+						</ul>
+                    </div>
+<!--15-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/janser.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">15. Janser Meirelles de Souza
+							</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto Nova
+						</ul>
+                    </div>
+<!--16-->
+                   <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/jean.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">16. Jean Carlo de Souza Brito</h3>
+							<span class="post"> Aluna - Projeto </span>
+						</div>
+						<ul class="social">  
+							Projeto Anxiety Off
+						</ul>
+                    </div>
+<!--17-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/kuê.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">17. Kauê França Cavalcante</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto Anxiety Off
+						</ul>
+                    </div>
+<!--18-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/luane.png">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">18. Luane dos Santos Lopes</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto Pequenos Físicos
+						</ul>
+                    </div>
+<!--19-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/mahara.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">19. Mahara Hayden L. Coelho</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto Gotinha
+						</ul>
+                    </div>
+<!--20-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/marcos.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">20. Marcos André Araújo Costa</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto TeaTalk
+						</ul>
+                    </div>
+<!--21-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/maria.jpg">
+                        </div>
+						<div class="team-content">
+							<h4 class="title">21. Maria Giovana C. do N.</h4>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto Nova
+						</ul>
+                    </div>
+<!--22-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/markus.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">22. Markus Gabryel M. da Silva</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto WordLess Code
+						</ul>
+                    </div>
+<!--23-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/paula.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">23. Paula Quadros de Mendonça</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto EDDO21
+						</ul>
+                    </div>
+<!--24-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/sano.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">24. Pedro Sano</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto EarHelp
+						</ul>
+                    </div>
+<!--25-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/rayna.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">25. Rayna Alencar de Menezes</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto EDDO21
+						</ul>
+                    </div>
+<!--26-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/renan.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">26. Renan Gonçalves Melo</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto WordLess Code
+						</ul>
+                    </div>
+<!--27-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/ruan.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">27. Ruan Figueiredo Tundis</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto Nova
+						</ul>
+                    </div>
+<!--28-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/saimon.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">28. Saimon Leandro Tavares</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto Pequenos Físicos
+						</ul>
+                    </div>
+<!--29-->
+                    <div class= "our-team">
+                        <div class= "pic">
+                            <img src="carometro/java.jpg">
+                        </div>
+						<div class="team-content">
+							<h3 class="title">29. Thiago da Silva Vieira</h3>
+							<span class="post"></span>
+						</div>
+						<ul class="social">  
+							Projeto WordLess Code
+						</ul>
+                    </div>
+
+                    
+		 </div>		
+		</section>
+</a>
+
+<br><br><br><br><br><br><br>
+	<a id = "contact">
+	<section id = "alunosTop">
+		<div  align="center" >
+			<table align="center">
+			  <tr>
+			  	<th>REDES</th>
+			  </tr><tr>
+			    <td ><a href="https://www.instagram.com/fmm3bi/?hl=pt-br"><img src="carometro/instagram.png" height="50"/></a>
+			    	<a href="https://www.youtube.com/channel/UC5lDLSLd0oroG8bnshCPl8g"><img src="carometro/youtube.png" height="50"/></a>
+			    	<a href="https://twitter.com/CurumimEscritor"><img src="carometro/twitter.png" height="50"/></a>
+
+			    		<br><br>Gmail: fmm2bi@gmail.com
+
+			    </td>
+			    
+			  </tr>
+			</table>
+		</div>
+
+	</section>
+</a>
+
+    </body>
+</html>

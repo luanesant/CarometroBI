@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+#topo{
+
+	height: 250px;
+	background-color: #FFB6C1;
+}
+#alunosTop{
+	background-color: #FFB6C1;
+	display: inline-table;
+}
+
+#alunosTop h1:hover{
+	background-color: #F08080;
+}
+#menu ul{
+	background-color: #F08080;
+}
+#menu ul li{
+	display: inline-table;
+	padding: 20px 30px;
+	cursor: pointer;
+	background-color: #F08080;
+}
+#menu ul li:hover{
+	background-color: #FFB6C1;
+}
+
+#menu ul li a{
+	background-color: #F08080;
+	text-decoration: none;
+	color: white;
+}
+
+#conteudo{
+	background-color: #FFB6C1;
+
+}
